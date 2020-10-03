@@ -1,0 +1,29 @@
+* {
+    font-size: 1rem;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    min-width: 10rem;
+    text-align: right;
+    margin-right: 0.75rem;
+    font-size: 1rem;
+}
+
+input {
+    height: 1.9rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid #666;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+input:read-only {
+    background-color: #cccccc;
+}
